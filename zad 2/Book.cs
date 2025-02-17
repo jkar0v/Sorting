@@ -10,6 +10,10 @@ namespace zad_2
     {
         string Title { get; set; }
         string Author { get; set; }
-        public Book() { }
+        public Book(string title, string author)
+        {
+            Title = title;
+            Author = author;
+        }
     }
 }
